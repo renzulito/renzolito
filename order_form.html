@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="headings">
+        <div class="logo">
+            <a href="https://www.example.com" target="_blank">
+                <img src="ima/pinklogo.jpg" alt="LilyAqua Creations Logo">
+            </a>
+        </div>
+        <div class="title">
+            <h1>LilyAqua Creations</h1>
+        </div>
+    </div>
+    <hr>
+</header>
+
+<nav align="right">
+    <a href="index.html">Products</a>&nbsp;&nbsp;&nbsp;
+    <a href="company.html">Company</a>&nbsp;&nbsp;&nbsp;
+    <a href="login.html">Log-out</a>&nbsp;&nbsp;&nbsp;
+    <a href="about_us.html">About Us</a>&nbsp;&nbsp;&nbsp;
+</nav>
+
+<section class="order-form-container">
+    <table class="order-form">
+        <tr>
+            <td colspan="5" align="center"><strong>Order Form</strong></td>
+        </tr>
+        <tr>
+            <td>Transaction Number:</td>
+            <td></td>
+            <td>Date:</td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td>Product Code</td>
+            <td>Description</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Amount</td>
+        </tr>
+        <tr>
+            <td><input type="number" name="product_code"></td>
+            <td><input type="text" name="description"></td>
+            <td><input type="number" name="product_price" placeholder="₱"></td>
+            <td><input type="number" name="product_quantity"></td>
+            <td><input type="number" name="amount"></td>
+        </tr>
+        <tr>
+            <td colspan="4" align="right">Total</td>
+            <td>₱69.00</td>
+        </tr>
+        <tr>
+            <td colspan="5" align="center">
+                <form action="billing_info.html">
+                    <button type="submit">Proceed</button>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="5" align="center">
+                <form action="index.html">
+                    <button type="submit">Select Product</button>
+                </form>
+            </td>
+        </tr>
+    </table>
+</section>
+
+<footer>
+    <hr>
+    <p align="center">&COPY; Copyright 2024 Renz Patrick Angelo R. Bison, All Rights Reserved</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>View Products</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="headings">
+    <div class="logo">
+      <a href="https://www.example.com" target="_blank"> 
+      </a>
+      <img src="ima/pinklogo.jpg" alt="LilyAqua Creations Logo">
+    </div>
+    <div class="title">
+        <h1>LilyAqua Creations</h1>
+    </div>
+  </div>
+  <hr>
+  
+    <nav>
+      <a href="transaction.html">TRANSACTION</a>&nbsp;&nbsp;&nbsp;
+      <a href="view_products.html" class="active">VIEWS</a>&nbsp;&nbsp;&nbsp;
+      <a href="product_sales.html">REPORTS</a>&nbsp;&nbsp;&nbsp;
+    </nav>
+  </header>
+
+  <main class="view-products">
+    <h2>View Products</h2>
+    <table class="product-table">
+      <thead>
+        <tr>
+          <th>Product Code:</th>
+          <th>Product Name:</th>
+          <th>Description:</th>
+          <th>Stocks</th>
+          <th>Price:</th>
+          <th colspan="2">Action:</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>0001</td>
+          <td>Backpack Bag</td>
+          <td>Brown Classic Bag</td>
+          <td>30</td>
+          <td>$39.99</td>
+          <td align="center">
+            <form action="add_product.html">
+              <button type="submit">Add Stock</button>
+            </form>
+          </td>
+          <td align="center">
+            <form action="update_product.html">
+              <button type="submit">Edit Product</button>
+            </form>
+          </td>
+        </tr>
+        </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="7" align="center">
+            <form action="admin.html">
+              <button type="submit">Go Back</button>
+            </form>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </main>
+
+  <footer>
+    <hr>
+    <p>&copy; Copyright 2024 Renz Patrick Angelo R. Bison, All Rights Reserved</p>
+  </footer>
+</body>
+</html>

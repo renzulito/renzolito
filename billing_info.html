@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Information</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        <div class="headings">
+            <div class="logo">
+            <a href="https://www.example.com" target="_blank"> 
+            </a>
+            <img src="ima/pinklogo.jpg" alt="LilyAqua Creations Logo">
+            </div>
+            <div class="title">
+                <h1>LilyAqua Creations</h1>
+            </div>
+        </div>
+        <hr>
+    </header>
+    <nav align="right">
+        <a href="index.html">Products</a>&nbsp;&nbsp;&nbsp;
+        <a href="company.html">Company</a>&nbsp;&nbsp;&nbsp;
+        <a href="login.html">Log-out</a>&nbsp;&nbsp;&nbsp;
+        <a href="about_us.html">Contact Us</a>&nbsp;&nbsp;&nbsp;
+    </nav>
+
+    <form action="success.html">
+        <br>
+        <table align="center">
+            <tr>
+                <td colspan="2" align="center">
+                    <h1>Billing Information</h1>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">Country:</td>
+                <td>
+                    <select name="country">
+                        <option value="Afghanistan">Afghanistan</option>
+                        <!-- List of countries removed for brevity -->
+                        <option value="Zimbabwe">Zimbabwe</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2"><br>Payment Details</th>
+            </tr>
+            <tr>
+                <td align="right">Transaction Number:</td>
+                <td><input type="text" name="transaction-number"></td>
+            </tr>
+            <tr>
+                <td align="right">Total Purchase:</td>
+                <td><input type="text" name="total-purchase"></td>
+            </tr>
+            <tr>
+                <td align="right">First Name:</td>
+                <td><input type="text" name="first-name"></td>
+            </tr>
+            <tr>
+                <td align="right">Last Name:</td>
+                <td><input type="text" name="last-name"></td>
+            </tr>
+            <tr>
+                <td align="right">Address:</td>
+                <td><input type="text" name="address"></td>
+            </tr>
+            <tr>
+                <td align="right"><strong>Card Type:</strong></td>
+                <td>
+                    <select name="card_type">
+                        <option value="Visa">Visa</option>
+                        <!-- Card types removed for brevity -->
+                        <option value="Other">Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">Card Number:</td>
+                <td><input type="text" name="card-number"></td>
+            </tr>
+            <tr>
+                <td align="right"><strong>Expiration Date:</strong></td>
+                <td>
+                    <select name="month">
+                        <option value="January">January</option>
+                        <!-- Months removed for brevity -->
+                        <option value="December">December</option>
+                    </select>
+                    <select name="year">
+                        <!-- Years removed for brevity -->
+                        <option value="2028">2028</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">Card Security Code:</td>
+                <td><input type="text" name="card-security-code"></td>
+            </tr>
+            <tr>
+                <th colspan="2"><br>Contact Information</th>
+            </tr>
+            <tr>
+                <td align="right">Email Address:</td>
+                <td><input type="email" name="email-address"></td>
+            </tr>
+            <tr>
+                <td align="right">Contact Number:</td>
+                <td><input type="tel" name="contact-number"></td>
+            </tr>
+            <tr align="center">
+                <td colspan="2">
+                    <br>
+                    <button type="submit">Submit</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+<footer>
+    <hr>
+    <p align="center">&COPY; Copyright 2024 Renz Patrick Angelo R. Bison, Alright Reserved</p>
+</footer>
+
+</html>

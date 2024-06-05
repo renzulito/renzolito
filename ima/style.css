@@ -1,0 +1,14 @@
+/* Adjust styles for logo and positioning */
+.logo {
+    float: left; /* Make logo float to the left */
+    margin-right: 10px; /* Add margin between logo and title */
+  }
+  
+  .logo img {
+    width: 50px; /* Adjust logo size as needed */
+    height: 50px; /* Adjust logo size as needed */
+  }
+  
+  .title {
+    overflow: hidden; /* Clear floats for proper layout */
+  }

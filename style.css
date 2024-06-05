@@ -1,0 +1,836 @@
+.background-image {
+    background-image: url("pexels-lumn-167698.jpg");
+    background-size: cover;
+}
+
+
+/* Adjust styles for logo and positioning */
+.logo {
+    float: left; /* Make logo float to the left */
+    margin-right: 10px; /* Add margin between logo and title */
+  }
+  
+  .logo img {
+    width: 100px; /* Adjust logo size as needed */
+    height: 100px; /* Adjust logo size as needed */
+  }
+  
+  .title h1{
+    color: green;
+    font-size: 50px; 
+  }
+
+.headings {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headings .logo .title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.header-text {
+    text-align: center;
+    color: hsl(120, 100%, 25%);
+    font-size: 400%;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    transition: all .2s ease;
+}
+nav a:hover{
+  text-decoration: underline;
+  color: palevioletred;
+}
+.product-table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.product-table td {
+    border: 2px solid black;
+    text-align: center;
+}
+
+.product-table td a {
+    text-decoration: none;
+    color: black;
+}
+
+.product-table td img {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    max-height: 250px;
+    border: #000;
+}
+
+.product-name {
+    color: green;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+footer {
+    text-align: center;
+}
+
+/* THIS IS THE INDEX PART UP */
+
+
+body {
+    font-family: sans-serif;  
+  }
+  
+  header, nav, footer {
+    background-color: #f0f0f0;  
+    padding: 1rem;  
+  }
+  
+  .bag-container {
+    display: flex;  
+    justify-content: space-between; 
+    margin: 0 auto; 
+    width: 80%; 
+  }
+  
+  .bag-item {
+    text-align: center; 
+    margin: 1rem;  
+  }
+  
+  .bag-item img {
+    width: 250px; 
+    height: auto;  
+    display: block; 
+    margin-bottom: 1rem;  
+  }
+  
+  .bag-item span {
+    font-weight: bold; 
+  }
+
+
+
+/* BAG BAG BAG BAG BAG */
+
+.product-details {
+    display: flex;  /* Make the container a flexbox */
+  }
+  
+  .product-image {
+    flex: 0 0 300px;  /* Set a fixed width for the image */
+    margin: 1rem;  /* Add some margin */
+  }
+  
+  .product-description {
+    flex: 1;  /* Allow the description to fill the remaining space */
+    padding: 1rem;  /* Add some padding */
+  }
+
+  .buto {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* LOGIN */
+
+.login-container {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  padding: 20px;
+  border-radius: 10px;
+  margin: 50px auto;
+  max-width: 500px;
+}
+
+.login-container h2 {
+  color: green;
+}
+
+.login-form {
+  margin-top: 20px;
+}
+
+.login-form .form-group {
+  margin-bottom: 15px;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-form button:hover {
+  background-color: darkgreen;
+}
+
+.agreement {
+  margin-top: 20px;
+}
+
+.agreement label {
+  color: black;
+}
+
+.footer {
+  margin-top: 50px;
+}
+
+
+
+
+/* ADMIN PANEL */
+
+
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    color: hsl(120, 100%, 25%);
+    text-decoration: none;
+  }
+  
+  nav {
+    text-align: right;
+    margin-bottom: 2px;
+  }
+  
+  nav a {
+    margin-left: 10px; 
+  }
+  
+  main.admin-panel {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+
+
+/* VIEW PRODUCTS */
+
+.view-products {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .product-table {
+    width: 80%;
+    margin: 0 auto; 
+    border-collapse: collapse; 
+  }
+  
+  .product-table th,
+  .product-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .product-table thead {
+    background-color: #f2f2f2;
+  }
+  
+  .product-table .active { 
+    font-weight: bold;
+    color: #000; 
+  }
+  
+
+
+
+
+
+/* Transactions */
+
+
+
+
+.view-products {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .transaction-table {
+    width: 80%;
+    margin: 0 auto; 
+    border-collapse: collapse; 
+  }
+  
+  .transaction-table th,
+  .transaction-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .transaction-table thead {
+    background-color: #f2f2f2;
+  }
+  
+  .transaction-table .active { 
+    font-weight: bold;
+    color: #000;
+  }
+
+
+
+
+/* COMPANYYYYYY */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.background-image {
+  background-image: url("pexels-lumn-167698.jpg");
+  background-size: cover;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  background-color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+.title h1 {
+  color: #008000;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #ff69b4;
+}
+
+/* Main content styles */
+.main-content {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.main-content h1 {
+  color: #008000;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.main-content p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.main-content img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #008000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-container button:hover {
+  background-color: #006400;
+}
+
+/* Footer styles */
+footer {
+  background-color: #f8f8f8;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 16px;
+  color: #555;
+}
+
+footer hr {
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+
+
+/* asdasdad */
+
+
+body, html {
+  height: 50%;
+  margin: 0;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#slideshowHolder1 {
+  width: 400px; /* Width defined in jqFancyTransitions */
+  height: 300px; /* Height defined in jqFancyTransitions */
+}
+
+
+
+
+
+/* ABOUT USSSSSS */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.background-image {
+  background-image: url("pexels-lumn-167698.jpg");
+  background-size: cover;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  background-color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+.title h1 {
+  color: #008000;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #ff69b4;
+}
+
+/* Main content styles */
+.main-content {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.main-content h1 {
+  color: #008000;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.main-content p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.main-content img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #008000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-container button:hover {
+  background-color: #006400;
+}
+
+/* Footer styles */
+footer {
+  background-color: #f8f8f8;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 16px;
+  color: #555;
+}
+
+footer hr {
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+
+
+/* REPORTS */
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+.headings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headings .logo img {
+  width: 100px;
+  height: 100px;
+}
+
+.headings .title {
+  margin-left: 10px;
+}
+
+/* Navigation styles */
+nav {
+  text-align: right;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+  transition: all 0.2s ease;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: rgb(13, 124, 41);
+}
+
+
+
+
+/*ORDER FORM*/
+
+
+
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+.title h1 {
+  color: green;
+  font-size: 24px;
+  margin: 0;
+}
+
+.headings {
+  display: flex;
+  align-items: center;
+}
+
+/* Navigation styles */
+nav {
+  text-align: right;
+  padding: 10px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+}
+
+/* Order form styles */
+.order-form-container {
+  margin-top: 20px;
+}
+
+.order-form {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.order-form td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.order-form input[type="number"],
+.order-form input[type="text"] {
+  width: 100%;
+  padding: 6px;
+}
+
+.order-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #008000;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.order-form button:hover {
+  background-color: #006400;
+}
+
+/* Footer styles */
+footer {
+  background-color: #f8f8f8;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+  color: #555;
+}
+
+footer hr {
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+
+}
+
+/*succese*/
+
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #fff;
+  padding: 20px 0;
+}
+
+.brand-name {
+  color: green;
+}
+
+/* Navigation styles */
+nav {
+  text-align: right;
+  padding: 10px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+}
+
+/* Status container styles */
+.status-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.status-image img {
+  width: 300px;
+  height: auto;
+}
+
+.status-details {
+  text-align: center;
+}
+
+.status-details h2 {
+  margin-top: 0;
+}
+
+/* Footer styles */
+footer {
+  background-color: #f8f8f8;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+  color: #555;
+}
+
+footer hr {
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+
+
